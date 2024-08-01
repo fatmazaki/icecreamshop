@@ -1,0 +1,7 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    filter: drop-shadow(1px 1px 20px rgba(255, 0, 157, 0.901));
+    color: rgb(154, 209, 255);
+}

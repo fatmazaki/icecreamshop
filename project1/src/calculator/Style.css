@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc{
+    border: 2px,solid,black;
+    border-radius: 25px;
+    padding: 30px;
+}
+input{
+    width: 220px;
+    padding: 13px;
+    font-size: large;
+    border-radius: 10px;
+}
+.calc button{
+    margin: 10px 4px;
+    padding: 10px;
+    font-size: large;
+    height:50px;
+    width: 50px;
+    border-radius: 10px;
+}

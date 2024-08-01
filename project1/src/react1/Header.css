@@ -1,0 +1,43 @@
+img{
+    width: 210px;
+    height: 95px;
+}
+.header{
+    display: flex;
+    width: 95%;
+    margin:auto;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+a{
+    color: rgb(238, 68, 125);
+    text-decoration-line: none;
+}
+ul li{
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+}
+ul li::after{
+    content: "";
+    background-color: rgb(255, 147, 183);
+    top: 20px;
+    left: 0px;
+    width: 0;
+    height: 5px;
+    position: absolute;
+}
+ul li:hover::after{
+    transition: 0.5s;
+    width: 100%;
+}
+ul li:hover{
+    color: rgb(225, 128, 160);
+    transition: 0.5s;
+    cursor: pointer;
+}
